@@ -9,7 +9,11 @@ public class Flipkart {
 	System.out.println(b);
 	System.out.println(a+b);
 
-		
+	int c=a;
+	a=b;
+	b=c;
+	
+	System.out.println(c);
 	}
 
 }
