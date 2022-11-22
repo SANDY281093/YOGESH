@@ -8,6 +8,12 @@ public class Flipkart {
 	System.out.println(a);
 	System.out.println(b);
 	System.out.println(a+b);
+	
+	a=b;
+	b=b+b;
+	System.out.println(a);
+	System.out.println(b);
+	System.out.println(a+b);
 
 		
 	}
